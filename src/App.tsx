@@ -1,4 +1,7 @@
-import UseRefExample from "./components/UseRefExample/useRefExample";
+import SuspenseComp from "./components/Suspense/suspence"
+// import NotControl from "./components/NotControl/notControl"
+// import Control from "./components/Control/control"
+// import UseRefExample from "./components/UseRefExample/useRefExample";
 // import UseRef from "./components/UseRef/useRef";
 // import UseEffect from "./components/UseEffect/useEffect"
 // import UseDeferredValue from "./components/UseDeferredValue/useDeferredValue"
@@ -14,7 +17,10 @@ function App() {
           {/* <UseTransition></UseTransition> */}
           {/* <UseDeferredValue></UseDeferredValue> */}
           {/* <UseEffect></UseEffect> */}
-          <UseRefExample></UseRefExample>
+          {/* <UseRefExample></UseRefExample> */}
+          {/* <Control></Control> */}
+          {/* <NotControl></NotControl> */}
+          <SuspenseComp></SuspenseComp>
       </>
   )
 }
